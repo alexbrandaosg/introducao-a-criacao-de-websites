@@ -1,0 +1,45 @@
+body {
+  background: rgb(235, 235, 235);
+  padding: 20px;
+}
+
+.title,
+.subtitle,
+.post-title {
+  color: rgb(56, 56, 56);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.post-title {
+  font-size: 3em;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.post {
+  background: rgb(240, 240, 240);
+  padding: 50px;
+  border-radius: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.198) -5px 5px 1em;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.avatar {
+  border-radius: 5000px;
+}
+
+.contatos {
+  list-style: none;
+  display: inline-flex;
+  padding: 20px;
+}
+
+li {
+  padding: 10px;
+}
